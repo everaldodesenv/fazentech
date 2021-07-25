@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/telas.css">
+    <title>Monitoramento de Doenças</title>
+</head>
+
+<body>
+
+
+    <div id="container">
+        <h1>Monitoramento de doenças</h1>
+        <form id="registre-form">
+            <div class="full-box">
+                <label for="Codigo">Codigo</label>
+                <input type="integer" name="Codigo" placeholder="Codigo">
+            </div>
+            <div class="half-box spacing">
+                <label for="Descricao">Descricao</label>
+                <input type="text" name="Descricao" placeholder="Digite a descrição do produto">
+            </div>
+            <div class="half-box">
+                <label for="PrecodeVenda">Preço de venda</label>
+                <input type="double" name="PrecodeVenda" placeholder="Preço de venda">
+            </div>
+            <div class="half-box spacing">
+                <label for="PrecodeCusto">Preço de custo</label>
+                <input type="double" name="PrecodeCusto" placeholder="Preco de custo">
+            </div>
+            <div class="half-box spacing">
+                <label for="dataDeCadastro">Data de Cadastro</label>
+                <input type="date" name="dataDeCadastro" placeholder="data de cadastro">
+            </div>
+
+            <div class="full-box">
+                <input type="submit" value="Salvar" class="btn">
+                <input type="reset" value="Limpar" class="btn">
+            </div>
+        </form>
+
+    </div>
+    <p class="error-validation template"></p>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/telas.css">
+    <title>Usuarios</title>
+</head>
+
+<body>
+
+
+    <div id="container">
+        <h1>Cadastro de Usuarios</h1>
+        <form id="registre-form">
+            <div class="full-box">
+                <label for="Codigo">Codigo</label>
+                <input type="integer" name="Codigo" placeholder="Codigo">
+            </div>
+            <div class="half-box spacing">
+                <label for="Nome">Nome</label>
+                <input type="text" name="Nome" placeholder="Digite o nome do usuario">
+            </div>
+            <div class="half-box">
+                <label for="Senha">Senha</label>
+                <input type="password" name="Senha" placeholder="Digite a senha">
+            </div>
+            <div class="half-box spacing">
+                <label for="Perfil">Perfil</label>
+                <input type="text" name="Perfil" placeholder="Perfil do usuário">
+            </div>
+
+            <div class="full-box">
+                <input type="submit" value="Salvar" class="btn">
+                <input type="reset" value="Limpar" class="btn">
+            </div>
+        </form>
+
+    </div>
+    <p class="error-validation template"></p>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/telas.css">
+    <title>Controle de Ruminações</title>
+</head>
+
+<body>
+
+
+    <div id="container">
+        <h1>Controle de Ruminações</h1>
+        <form id="registre-form">
+            <div class="full-box">
+                <label for="idfuncionario">Codigo funcionario</label>
+                <input type="integer" name="idfuncionario" placeholder="Codigo">
+            </div>
+            <div class="half-box spacing">
+                <label for="idanimal">Animal</label>
+                <input type="text" name="idanimal" placeholder="Digite a descrição do produto">
+            </div>
+            <div class="half-box">
+                <label for="dataruminacao">Data Ruminação</label>
+                <input type="date" name="dataruminacao" placeholder="Preço de venda">
+            </div>
+            <div class="half-box spacing">
+                <label for="tempo">Tempo</label>
+                <input type="time" name="tempo" placeholder="Preco de custo">
+            </div>
+
+            <div class="full-box">
+                <input type="submit" value="Salvar" class="btn">
+                <input type="reset" value="Limpar" class="btn">
+            </div>
+        </form>
+
+    </div>
+    <p class="error-validation template"></p>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

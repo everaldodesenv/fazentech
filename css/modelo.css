@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("vaca.jpg");
+    /*background-size: cover;
+    background-position: 150px;*/
+}
+
+h3 {
+    background-image: url("vaquinha.gif");
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(54, 11, 11);
+}
+
+.menu ul {
+    padding: 0;
+    /*margin-left: 202px;*/
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+}
+
+.menu ul ul ul {
+    margin-left: 202px;
+    top: 0px;
+    position: absolute;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li {
+    background-color: rgb(54, 193, 248);
+    color: white;
+    float: left;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    position: relative;
+}
+
+.menu ul li:hover {
+    background-color: blue;
+}
+
+.menu ul ul li:hover {
+    background-color: darkblue;
+}

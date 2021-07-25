@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/telas.css">
+    <title>Controle de Vacinas</title>
+</head>
+
+<body>
+
+
+    <div id="container">
+        <h1>Controle de Vacinas</h1>
+        <form id="registre-form">
+            <div class="full-box">
+                <label for="idaplicacao">Codigo</label>
+                <input type="int" name="idaplicacao" placeholder="Codigo">
+            </div>
+            <div class="half-box spacing">
+                <label for="idanimal">codigo animal</label>
+                <input type="text" name="idanimal" placeholder="Digite a descrição do produto">
+            </div>
+            <div class="half-box">
+                <label for="idfuncionario">Preço de venda</label>
+                <input type="int" name="idfuncionario" placeholder="Preço de venda">
+            </div>
+            <div class="half-box spacing">
+                <label for="dataaplicacao">data aplicação</label>
+                <input type="date" name="dataaplicacao" placeholder="Preco de custo">
+            </div>
+            <div class="half-box spacing">
+                <label for="medicamento">Código medicamento</label>
+                <input type="date" name="medicamento" placeholder="data de cadastro">
+            </div>
+
+            <div class="full-box">
+                <input type="submit" value="Salvar" class="btn">
+                <input type="reset" value="Limpar" class="btn">
+            </div>
+        </form>
+
+    </div>
+    <p class="error-validation template"></p>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

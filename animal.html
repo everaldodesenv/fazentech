@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/telas.css">
+    <title>Animais</title>
+</head>
+
+<body>
+
+
+    <div id="container">
+        <h1>Cadastro de Animais</h1>
+        <form id="registre-form">
+            <div class="full-box">
+                <label for="nroBrinco">Nro Brinco</label>
+                <input type="integer" name="nroBrinco" placeholder="Codigo">
+            </div>
+            <div class="half-box spacing">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" placeholder="Digite a descrição do produto">
+            </div>
+            <div class="half-box spacing">
+                <label for="dtnascimento">Data Nascimento</label>
+                <input type="text" name="dtnascimento" placeholder="Digite a descrição do produto">
+            </div>
+            <div class="half-box spacing">
+                <label for="dtcompra">Data compras</label>
+                <input type="text" name="dtcompra" placeholder="Digite a descrição do produto">
+            </div>
+            <div class="half-box spacing">
+                <label for="vlrcompra">Valor compra</label>
+                <input type="text" name="vlrcompra" placeholder="Digite a descrição do produto">
+            </div>
+            <div class="full-box">
+                <input type="submit" value="Salvar" class="btn">
+                <input type="reset" value="Limpar" class="btn">
+            </div>
+        </form>
+
+    </div>
+    <p class="error-validation template"></p>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
